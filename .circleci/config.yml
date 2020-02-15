@@ -16,7 +16,7 @@ jobs:
             sudo mv packer /usr/local/bin
             echo "verify packer"
             packer
-            cd ami
+            ls
             packer validate config.json
             packer build \
             -var 'aws_access_key='${aws_access_key} \
