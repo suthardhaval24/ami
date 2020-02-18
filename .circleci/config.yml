@@ -14,10 +14,11 @@ jobs:
             ls
             unzip packer_1.5.3_linux_amd64.zip
             sudo mv packer /usr/local/bin
-            packer validate template.json
+            packer validate -var 'source_ami='${source_ami} template.json
             packer build \
             -var 'aws_access_key='${aws_access_key} \
             -var 'aws_secret_key='${aws_secret_key} \
+            -var 'source_ami='${source_ami} \
             -var 'aws_region='${aws_region} \
             -var 'ami_users='${ami_users} \
             template.json

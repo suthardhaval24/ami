@@ -3,5 +3,6 @@
   "aws_access_key": "",
   "aws_secret_key": "",
   "subnet_id": "",
-  "ami_users": ""
+  "ami_users": "",
+  "source_ami" : ""
 }
