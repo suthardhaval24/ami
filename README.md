@@ -17,7 +17,7 @@ Packer
 ## Run Instruction 
 
  1. clone directory 
- 2. Fill out details in vars.json file   
+ 2. Fill out details in  vars.json file   
  3. validate template
     * Packer validate template.jsn
  4. Build Template
