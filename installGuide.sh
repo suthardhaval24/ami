@@ -8,5 +8,8 @@ echo "Java8 Downloaded"
 echo "Installing Tomcat"
 sudo apt-get install -y tomcat8
 echo "Tomcat Installed"
+sudo apt-get install -y maven
+sudo apt-get install -y unzip
+sudo apt-get install -y wget
 echo "------------------------------"
 echo "All the dependencies installed"
