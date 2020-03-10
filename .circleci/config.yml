@@ -27,4 +27,8 @@ workflows:
   version: 2
   build-deploy-workflow:
     jobs:
-      - build
+      - build:
+          filters:
+            branches:
+              only:
+                -master
