@@ -22,7 +22,6 @@ jobs:
             -var 'aws_region='${aws_region} \
             -var 'ami_users='${ami_users} \
             template.json
-
 workflows:
   version: 2
   build-deploy-workflow:
@@ -31,4 +30,4 @@ workflows:
           filters:
             branches:
               only:
-                -master
+                - master
