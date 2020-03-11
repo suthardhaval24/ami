@@ -24,5 +24,5 @@ Packer
     * packer build -var-file=./vars.json template.json
     
 ## CircleCI
- 1. build_deploy job: which will install packer, and then validate template file and build the template with AWS Code Deploy.
+ 1. build_deploy job: which will install packer,and then validate template file and build the template with AWS Code Deploy.
     It will create AMI in account linked and share with account mentioned in ami_users object. 
